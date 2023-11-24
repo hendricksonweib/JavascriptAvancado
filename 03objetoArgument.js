@@ -1,4 +1,8 @@
-function sum(n1, n2){
-    return n1 + n2
+function sum(){
+for( const n of arguments){
+    res += 0
+    console.log(n)
+}
+return res
 }
 console.log(sun(1,1))
